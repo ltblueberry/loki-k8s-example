@@ -1,0 +1,20 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: grafana
+  namespace: monitoring
+  labels:
+    app: grafana
+spec:
+  # tls:
+  #   - secretName: grafana-tls-secret
+  #     hosts:
+  #       - grafana.example.com
+  rules:
+    - host: grafana.example.com
+      http:
+        paths:
+          - backend:
+              serviceName: grafana
+              servicePort: 80
+            path: /
