@@ -26,7 +26,7 @@ helm repo add loki https://grafana.github.io/loki/charts
 helm repo update
 ```
 
-![helm repo](screenshots/screenshot-helm-repo.png)
+![helm repo](screenshots/screenshot-loki-helm-repo.png)
 
 
 Install Loki stack
@@ -36,3 +36,13 @@ helm install loki loki/loki-stack --namespace monitoring -f loki.values.yaml
 
 ![loki pods](screenshots/screenshot-loki-pods.png)
 
+
+## Grafana
+
+Add and update Grafana helm chart repository
+```
+helm repo add grafana https://grafana.github.io/helm-charts
+helm repo update
+```
+
+![helm repo](screenshots/screenshot-grafana-helm-repo.png)
