@@ -46,3 +46,10 @@ helm repo update
 ```
 
 ![helm repo](screenshots/screenshot-grafana-helm-repo.png)
+
+Install Grafana 
+```
+helm install grafana grafana/grafana --namespace monitoring -f grafana.values.yaml
+```
+
+![grafana pod](screenshots/screenshot-grafana-pod.png)
