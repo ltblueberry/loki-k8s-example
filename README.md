@@ -70,9 +70,8 @@ kubectl apply -f ingress.yaml
 
 
 Add ingress IP address to **/etc/hosts** for **grafana.example.com**
-Check out web interface in browser
 
-Sign in with user **admin** and password
+Check out web interface in browser. Sign in with user **admin** and password.
 
 Create new dashboard and panel. Our Loki datasource is available and it is the default datasource.
 
