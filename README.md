@@ -29,3 +29,10 @@ helm repo update
 ![helm repo](screenshots/screenshot-helm-repo.png)
 
 
+Install Loki stack
+```
+helm install loki loki/loki-stack --namespace monitoring -f loki.values.yaml
+```
+
+![loki pods](screenshots/screenshot-loki-pods.png)
+

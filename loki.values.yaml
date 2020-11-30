@@ -1,0 +1,13 @@
+promtail:
+  enabled: true
+
+loki:
+  persistence:
+    enabled: true
+    size: 8Gi # example value
+
+config:
+  table_manager:
+    retention_deletes_enabled: true
+    retention_period: 720h # 30 days
+
