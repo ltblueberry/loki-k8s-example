@@ -17,3 +17,15 @@ kubectl create namespace monitoring
 
 ![created namespace](screenshots/screenshot-namespace.png)
 
+
+## Loki stack
+
+Add and update Loki helm chart repository
+```
+helm repo add loki https://grafana.github.io/loki/charts
+helm repo update
+```
+
+![helm repo](screenshots/screenshot-helm-repo.png)
+
+
