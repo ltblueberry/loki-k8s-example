@@ -78,5 +78,3 @@ Create new dashboard and panel. Our Loki datasource is available and it is the d
 Set log labels with value **container="grafana"** (it is an example, you can try any other meta label **app**, **namespace**, etc), set visualization type **Logs**.
 
 ![grafana log panel](screenshots/screenshot-grafana-log-panel.png)
-
-
